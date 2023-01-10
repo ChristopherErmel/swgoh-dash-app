@@ -1,22 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-// Components
-function testing(){
-  return (
-    <div>
-      Testing Worked!
-    </div>
-  );
-}
+import App from './App';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'), testing());
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
-  Testing Worked!
-</div>
+  <App />
 );
 
 
